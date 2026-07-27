@@ -1,0 +1,13 @@
+# Data and trained models are reproducible artefacts, not source
+data/raw/*
+data/processed/*
+models/*
+!data/**/.gitkeep
+!models/.gitkeep
+
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store

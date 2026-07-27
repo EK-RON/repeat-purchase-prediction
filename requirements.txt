@@ -1,0 +1,14 @@
+# --- core --------------------------------------------------------------------
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+openpyxl>=3.1      # reads the source .xlsx extract
+requests>=2.31
+tabulate>=0.9      # markdown rendering of generated reports
+joblib>=1.3        # model persistence
+
+# --- tests -------------------------------------------------------------------
+pytest>=8.0
